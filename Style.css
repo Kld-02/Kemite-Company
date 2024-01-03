@@ -47,6 +47,7 @@ html {
   }
   .logo {
     height: 50px;
+    margin-left: -13px;
   }
   .navbar a {
     font-size: 14px;
@@ -98,9 +99,15 @@ html {
 .home-content p {
   font-size: 20px;
   font-weight: 500;
+  font-style: italic;
   margin: 20px 0 40px;
   color: rgb(119, 119, 119);
   transition: 0.3s ease;
+}
+
+.home-content a {
+  font-style: normal;
+  font-size: 21px;
 }
 
 .success {
@@ -465,7 +472,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer {
-  background-color: #fcfcfc;
+  background-color: #ef3432;
   height: 100px;
   width: 100%;
   display: inline-flex;
@@ -478,6 +485,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer p {
+  color: #ffffff;
   display: inline;
   transition: 0.3s ease;
 }
